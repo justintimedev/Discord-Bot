@@ -4,16 +4,18 @@ First, create a new Vue.js project by following the Vue.js installation instruct
 
 Install the Discord.js library by running the following command in your project directory:
 
-Copy code
+```
 npm install discord.js
+```
 Create a new Discord bot by following the Discord Developer Portal instructions.
 
 Once you have created your bot, you will need to add its token to your Vue.js project. 
 You can do this by creating a new file in your project called .env.local and adding the following line to it:
 
 makefile
-
+```
 VUE_APP_DISCORD_TOKEN=<your_bot_token>
+```
 
 In your Vue.js project, create a new file called bot.js and add the following code:
 
