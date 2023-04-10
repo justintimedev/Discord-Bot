@@ -11,7 +11,8 @@ Create a new Discord bot by following the Discord Developer Portal instructions.
 Once you have created your bot, you will need to add its token to your Vue.js project. 
 You can do this by creating a new file in your project called .env.local and adding the following line to it:
 
-makefil
+makefile
+
 VUE_APP_DISCORD_TOKEN=<your_bot_token>
 
 In your Vue.js project, create a new file called bot.js and add the following code:
